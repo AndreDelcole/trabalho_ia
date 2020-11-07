@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container" style=" top: 70px;">
+	<div class="row">
+		<div class="col-md-12">
+			<center>
+				<h3>
+					Analisador de letra de Musical
+				</h3>
+			</center>
+			<div role="form">
+				<div class="form-group">
+					 <center>
+					<label for="lyrics">
+						Letra de Música
+					</label>
+					</center>
+					<textarea class="form-control" id="lyrics" rows="4"></textarea>
+				</div>
+				<center><div id="loader" style="display:none;">Aguarde um momento. Inteligência Artificial processando...</div><center>
+				<br>
+				<center><div><h1 id="result"></h1></div></center>
+				<br>
+				<button class="btn btn-primary" onclick="onAnalyser()">
+					Analisar
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
